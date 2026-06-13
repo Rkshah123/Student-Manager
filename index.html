@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Student Manager</h1>
+    <h2>All Students : <span id="studentCount">0</span></h2>
+
+    <div class="main">
+
+        <div class="form-section">
+            <h3>Add Student</h3>
+
+            <input type="text" id="name" placeholder="Enter Name">
+
+            <input type="text" id="mobile" placeholder="Enter Mobile">
+
+            <textarea id="address" placeholder="Enter Address"></textarea>
+
+            <button id="addBtn">Add Student</button>
+        </div>
+
+        <div class="student-section">
+            <h3>All Students</h3>
+
+            <div id="studentList"></div>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
